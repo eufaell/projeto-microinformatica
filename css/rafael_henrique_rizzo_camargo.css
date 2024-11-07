@@ -1,0 +1,622 @@
+/** cores:  #7C00FE
+            #F9E400
+            #FFAF00
+            #F5004F
+
+**/
+:root {
+    --roxo: #7C00FE;
+    --amarelo: #F9E400;
+    --laranja: #FFAF00;
+    --rosa: #F5004F;
+    --preto: #000;
+    --branco: #fff;
+}
+
+body {
+    margin: 0 auto;
+    background-color: var(--amarelo);
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-family: fantasy;
+    margin-left: 10px;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.p-nav {
+    font-family: fantasy;
+    font-size: 30px;
+    color: var(--preto);
+    text-decoration: none;
+    transition: color 0.3s;
+    margin: 0 10px;
+}
+
+.p-nav:hover {
+    color: #F9E400;
+    transition: 0.3s;
+}
+
+main {
+    width: 85vw;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+
+.titulo {
+    text-align: center;
+    color: var(--preto);
+    font-weight: bolder;
+}
+
+.texto {
+    font-size: 23px;
+    margin: 0 0px;
+    text-align: center;
+    color: var(--preto);
+}
+
+.img-1-main {
+    text-align: center;
+}
+
+.mt-6 {
+    margin-top: 100px;
+}
+
+
+.img-2-main {
+    text-align: center;
+}
+
+.caroussel-1 {
+    margin: 0 auto;
+    width: 60vw;
+    height: 70vh;
+}
+
+
+
+.card {
+    margin: 30px 50px;
+
+}
+
+.card a {
+    background-color: #7C00FE;
+    color: #fff;
+}
+
+.card-title {
+    color: var(--preto);
+}
+
+.btn {
+    background-color: #7C00FE;
+    margin: 20px 0;
+}
+
+
+.titulo {
+    text-align: center;
+}
+
+nav {
+    background-color: #7C00FE;
+}
+
+.elementos-nav {
+    width: 85vw;
+}
+
+footer {
+    background-color: #7C00FE;
+    /* border: 2px solid red; */
+}
+
+footer p {
+    font-weight: bolder;
+    color: var(--preto);
+    font-size: 17px;
+    text-align: center;
+}
+
+footer a {
+    font-weight: bolder;
+    color: var(--preto);
+    font-size: 17px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.footer-1 {
+    width: 85vw;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+footer div img {
+    border-radius: 50%;
+    border: var(--preto) solid 2px;
+}
+
+/* --------------Codigos Podpah-------------- */
+.container-podpah-01 {
+    background-image: url(../img/img-1-podpah.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.gradient-podpah {
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8855917366946778) 31%, rgba(255, 255, 255, 0) 100%);
+}
+
+.gradient-podpah h1 {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 1;
+    font-size: 100px;
+    font-family: fantasy;
+    color: var(--amarelo);
+}
+
+.container-1-pdp {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.texto-pdp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    color: var(--preto);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.titulo-pdp {
+    color: var(--preto);
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.caroussel-pdp {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.caroussel-pdp-inner {
+    height: 600px;
+}
+
+.caroussel-pdp-item img{
+    object-fit: cover; /* Faz as imagens se ajustarem dentro do espaço, sem distorcer */
+    height: 100%; /* As imagens terão a altura do carrossel */
+    width: 100%; /* As imagens terão a largura do carrossel */
+}
+
+.caroussel-inx {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.caroussel-inx-inner {
+    height: 800px;
+}
+
+.caroussel-inx-item img{
+    object-fit: cover; /* Faz as imagens se ajustarem dentro do espaço, sem distorcer */
+    height: 100%; /* As imagens terão a altura do carrossel */
+    width: 100%; /* As imagens terão a largura do carrossel */
+}
+
+.convidado {
+    background-color: var(--roxo);
+    border-radius: 60px;
+}
+
+.convidado img {
+    width: 600px;
+    height: 370px;
+    border-radius: 5%;
+    margin-bottom: 40px;
+}
+
+.convidado h1 {
+    text-align: center;
+    color: #F9E400;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+
+.convidado p {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--preto);
+    font-weight: bolder;
+    margin: 0 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-tamanho {
+    width: 40vw;
+    text-align: center;
+}
+
+.card-tamanho p {
+    font-size: 25px;
+}
+
+.card-tamanho h5 {
+    font-size: 30px;
+}
+
+.dropdown-menu {
+    background-color: var(--roxo);
+}
+
+.dropdown-menu li a {
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+
+
+/* --------------Codigos Mamilos-------------- */
+
+.container-mamilos-01 {
+    background-image: url(../img/img-1-mamilos.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container-1-mam {
+    text-align: center;
+}
+
+
+.gradient-mamilos {
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8855917366946778) 17%, rgba(255, 255, 255, 0) 100%);
+}
+
+.gradient-mamilos h1 {
+    position: absolute;
+    left: 250px;
+    top: 350px;
+    transform: translateX(-50%);
+    text-align: center;
+    color: var(--branco);
+    z-index: 1;
+    font-size: 100px;
+    font-family: fantasy;
+    color: var(--amarelo);
+}
+
+.gradient-mamilos p {
+    position: absolute;
+    left: 250px;
+    top: 450px;
+    transform: translateX(-50%);
+    text-align: center;
+    color: var(--branco);
+    z-index: 1;
+    font-size: 50px;
+    font-family: fantasy;
+    color: var(--amarelo);
+}
+
+.card-tamanho-mam {
+    width: 40vw;
+    text-align: center;
+
+}
+
+.card-tamanho-mam h5 {
+    font-size: 30px;
+}
+
+.card-tamanho-mam p {
+    font-size: 25px;
+}
+
+/* --------------Codigos PodDelas-------------- */
+
+.container-poddelas-01 {
+    background-image: url(../img/img-1-poddelas.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.gradient-poddelas {
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8855917366946778) 21%, rgba(255, 255, 255, 0) 100%);
+}
+
+.gradient-poddelas h1 {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 1;
+    font-size: 100px;
+    font-family: fantasy;
+    color: var(--amarelo);
+}
+
+.gradient-poddelas p {
+    position: absolute;
+    left: 250px;
+    top: 0px;
+    transform: translateX(-50%);
+    text-align: center;
+    color: var(--branco);
+    z-index: 1;
+    font-size: 100px;
+    font-family: fantasy;
+    color: var(--amarelo);
+}
+
+.convidado-pdd {
+    /* border: 2px solid red; */
+    border-radius: 60px;
+}
+
+.convidado-pdd img {
+    width: 350px;
+    height: 350px;
+    border-radius: 5%;
+    margin-bottom: 40px;
+    ;
+}
+
+.convidado-pdd h1 {
+    text-align: center;
+    color: var(--preto);
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+
+.convidado-pdd p {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--preto);
+    margin: 0 10px;
+}
+
+
+
+/* ------------------------------------------- */
+
+
+@media (max-width: 575.98px) {
+    .container-podpah-01 {
+        width: 100%;
+        height: 30vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .gradient-podpah {
+        height: 30vh;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.8855917366946778) 31%, rgba(255, 255, 255, 0) 100%);
+    }
+
+    .gradient-podpah h1 {
+        bottom: 100px;
+        z-index: 1;
+        font-size: 80px;
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+    }
+
+    /* --------------Codigos Mamilos-------------- */
+
+    .container-mamilos-01 {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .gradient-mamilos {
+        height: 30vh;
+    }
+
+    .gradient-mamilos h1 {
+        left: 120px;
+        top: 150px;
+        font-size: 70px;
+        font-family: fantasy;
+    }
+
+    .gradient-mamilos p {
+        left: 120px;
+        top: 190px;
+        font-size: 35px;
+        font-family: fantasy;
+    }
+
+
+
+    /* --------------Codigos PodDelas-------------- */
+
+    .container-poddelas-01 {
+        height: 30vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .gradient-poddelas {
+        height: 30vh;
+
+    }
+
+    .gradient-poddelas h1 {
+        top: 240px;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .container-podpah-01 {
+        height: 30vh;
+    }
+
+    .gradient-podpah {
+        height: 30vh;
+    }
+
+    .gradient-podpah h1 {
+        top: 180px;
+        font-size: 60px;
+    }
+
+    .container-1-mam img {
+        width: 80vw;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-1-pdp img {
+        width: 80vw;
+        height: 25vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .container-1-pdd img {
+        width: 80vw;
+    }
+
+    .convidado-pdd img {
+        width: 80vw;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .convidado img {
+        width: 80vw;
+        height: 40vh;
+    }
+    
+    .convidado p {
+        font-size: 20px;
+    }
+
+    .card-tamanho {
+        width: 80vw;
+    }
+
+    .card-tamanho-mam {
+        width: 80vw;
+    }
+
+    .texto {
+        font-size: 20px;
+    }
+
+    .container-1-pdp texto {
+        margin-top: 100px;
+    }
+
+    /* --------------Codigos Mamilos-------------- */
+
+    .container-mamilos-01 {
+        height: 50vh;
+        background-position: right;
+    }
+
+    .gradient-mamilos {
+        height: 50vh;
+    }
+
+    .gradient-mamilos h1 {
+        top: 230px;
+        left: 170px;
+        font-size: 50px;
+    }
+
+    .gradient-mamilos p {
+        top: 280px;
+        left: 170px;
+        font-size: 40px;
+    }
+
+    /* --------------Codigos PodDelas-------------- */
+
+    .container-poddelas-01 {
+        height: 50vh;
+    }
+
+    .gradient-poddelas {
+        height: 50vh;
+    }
+
+    .gradient-poddelas h1 {
+        top: 320px;
+        font-size: 60px;
+    }
+
+
+}
+
+/* @media (max-width: 991.98px) {  } */
+
+/* @media (max-width: 1199.98px) { ... }
+
+@media (max-width: 1399.98px) { ... } */
